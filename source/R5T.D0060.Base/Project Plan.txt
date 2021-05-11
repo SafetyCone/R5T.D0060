@@ -1,0 +1,4 @@
+R5T.D0060.Base - Base service definitions library for a catch-all services pack.
+
+Goals
+
