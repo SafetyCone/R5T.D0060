@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Dacia", "..\..\R5T.Daci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.D0060.Default", "R5T.D0060.Default\R5T.D0060.Default.csproj", "{6015D38E-72F4-42FC-8C68-7ECA9F151195}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Magyar", "..\..\R5T.Magyar\source\R5T.Magyar\R5T.Magyar.csproj", "{18A22BB3-74C6-4373-BCAF-32E40ABDB7CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,18 @@ Global
 		{6015D38E-72F4-42FC-8C68-7ECA9F151195}.Release|x64.Build.0 = Release|Any CPU
 		{6015D38E-72F4-42FC-8C68-7ECA9F151195}.Release|x86.ActiveCfg = Release|Any CPU
 		{6015D38E-72F4-42FC-8C68-7ECA9F151195}.Release|x86.Build.0 = Release|Any CPU
+		{18A22BB3-74C6-4373-BCAF-32E40ABDB7CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A22BB3-74C6-4373-BCAF-32E40ABDB7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A22BB3-74C6-4373-BCAF-32E40ABDB7CE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{18A22BB3-74C6-4373-BCAF-32E40ABDB7CE}.Debug|x64.Build.0 = Debug|Any CPU
+		{18A22BB3-74C6-4373-BCAF-32E40ABDB7CE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{18A22BB3-74C6-4373-BCAF-32E40ABDB7CE}.Debug|x86.Build.0 = Debug|Any CPU
+		{18A22BB3-74C6-4373-BCAF-32E40ABDB7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A22BB3-74C6-4373-BCAF-32E40ABDB7CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A22BB3-74C6-4373-BCAF-32E40ABDB7CE}.Release|x64.ActiveCfg = Release|Any CPU
+		{18A22BB3-74C6-4373-BCAF-32E40ABDB7CE}.Release|x64.Build.0 = Release|Any CPU
+		{18A22BB3-74C6-4373-BCAF-32E40ABDB7CE}.Release|x86.ActiveCfg = Release|Any CPU
+		{18A22BB3-74C6-4373-BCAF-32E40ABDB7CE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +106,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{109B7AAF-9EA0-402A-AD23-2DA019C841B5} = {71D8B905-326A-4294-92BE-707E6247EA4D}
 		{2947D3A3-EC5F-4C00-8E48-E123E30D8D94} = {71D8B905-326A-4294-92BE-707E6247EA4D}
+		{18A22BB3-74C6-4373-BCAF-32E40ABDB7CE} = {71D8B905-326A-4294-92BE-707E6247EA4D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {408831B2-DFC8-4654-9C1E-184D38B47A57}
