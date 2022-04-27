@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Threading.Tasks;
 
+using R5T.T0064;
+
 
 namespace R5T.D0060
 {
-    public class CurrentDirectoryPathProvider : ICurrentDirectoryPathProvider
+    [ServiceImplementationMarker]
+    public class CurrentDirectoryPathProvider : ICurrentDirectoryPathProvider, IServiceImplementation
     {
         public Task<string> GetCurrentDirectoryPath()
         {

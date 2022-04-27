@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Threading.Tasks;
 
-using R5T.Magyar.IO;
+using R5T.T0064;
 
 
 namespace R5T.D0060
@@ -15,7 +16,8 @@ namespace R5T.D0060
     /// See prior (synchronous) work in R5T.Gepidia.Base.
     /// Stringly-typed paths.
     /// </remarks>
-    public interface IFileSystemOperator
+    [ServiceDefinitionMarker]
+    public interface IFileSystemOperator : IServiceDefinition
     {
         Task<IDictionary<TKey, bool>> DeleteFilesByKey<TKey>(IDistinctValuedDictionary<TKey, string> filePathsByKey);
         Task<IDictionary<string, IDistinctEnumerable<string>>> EnumerateFilePaths(IDistinctEnumerable<string> directoryPaths);

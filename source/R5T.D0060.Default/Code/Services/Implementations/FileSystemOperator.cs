@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Threading.Tasks;
 
-using R5T.Magyar.IO;
+using R5T.T0064;
 
 
 namespace R5T.D0060
@@ -13,7 +14,8 @@ namespace R5T.D0060
     /// <remarks>
     /// See prior work in R5T.Gepidia.Local.
     /// </remarks>
-    public class FileSystemOperator : IFileSystemOperator
+    [ServiceImplementationMarker]
+    public class FileSystemOperator : IFileSystemOperator, IServiceImplementation
     {
         public Task<IDictionary<TKey, bool>> DeleteFilesByKey<TKey>(IDistinctValuedDictionary<TKey, string> filePathsByKey)
         {
